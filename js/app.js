@@ -1,22 +1,35 @@
-//datatype
-//character , number , boolean , string
-// var , let , const -> use in js
+//Operators
 
-// var num1 = 10;
-// let num2 = 20;
-// const num3= 30; //can't override
+/*
+1. Arithmetic operators  
+            + - * / ++ --
+2. Comparison operators
+            == === !== <= >=
+3. Logical operators 
+            && || !
+4. Assignment operators
+            = += -=
+5. Conditional operators (tarnary operator)
+            ?
+*/
 
-// num1 = 20;
-// num2 = 40;
+// var num = 10;
+// console.log(num++); //10
+// console.log(num);   //11
 
-// console.log(num1, num2);
+// console.log(5===5);
+// console.log(5===5 && 5=="5" && 5!==5);
+// num+=10;
+// console.log(num);
 
-// let value = false;
-// console.log(typeof value)
+var a = 10;
+var b = 20;
+// if (a>b){
+//     var result = "a is greater";
+// }else{
+//     var result = "a is less than b";
+// }
+// console.log(result);
 
-var a = b = 10;
-console.log(a,b)
-
-//don't in variable declaration
-// language keywords (var,if,for)
-// operators 
+let result = a>b ? "a is greater" : "a is less than b";
+console.log(result);
