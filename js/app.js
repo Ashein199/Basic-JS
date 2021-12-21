@@ -22,14 +22,24 @@
 // num+=10;
 // console.log(num);
 
-var a = 10;
-var b = 20;
-// if (a>b){
-//     var result = "a is greater";
-// }else{
-//     var result = "a is less than b";
-// }
+// var a = 10;
+// var b = 20;
+// // if (a>b){
+// //     var result = "a is greater";
+// // }else{
+// //     var result = "a is less than b";
+// // }
+// // console.log(result);
+
+// let result = a>b ? "a is greater" : "a is less than b";
 // console.log(result);
 
-let result = a>b ? "a is greater" : "a is less than b";
-console.log(result);
+// Priority
+/*  () is first
+1. * /
+2. + -
+3. left 
+*/
+
+var num = 1+ (2+3) *4 /5;  //1+5*4/5  //1+20/5  //1+4
+console.log(num); //5
