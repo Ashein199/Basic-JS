@@ -1,45 +1,33 @@
-//Operators
+// condition & loop
 
-/*
-1. Arithmetic operators  
-            + - * / ++ --
-2. Comparison operators
-            == === !== <= >=
-3. Logical operators 
-            && || !
-4. Assignment operators
-            = += -=
-5. Conditional operators (tarnary operator)
-            ?
-*/
+// condition => if , else , elseif , switch
+// loop => while , do-while , for
 
-// var num = 10;
-// console.log(num++); //10
-// console.log(num);   //11
 
-// console.log(5===5);
-// console.log(5===5 && 5=="5" && 5!==5);
-// num+=10;
-// console.log(num);
+var status = prompt("Enter number from 1 to 3");
+// if ( status == 1){
+//     console.log("Morning");
+// }else if( status==2){
+//     console.log("Afternoon");
+// }else if( status==3){
+//     console.log("Night");
+// }else{
+//     console.log("Error number");
+// }
+// console.log("Have a nice day !");
 
-// var a = 10;
-// var b = 20;
-// // if (a>b){
-// //     var result = "a is greater";
-// // }else{
-// //     var result = "a is less than b";
-// // }
-// // console.log(result);
-
-// let result = a>b ? "a is greater" : "a is less than b";
-// console.log(result);
-
-// Priority
-/*  () is first
-1. * /
-2. + -
-3. left 
-*/
-
-var num = 1+ (2+3) *4 /5;  //1+5*4/5  //1+20/5  //1+4
-console.log(num); //5
+switch(Number(status)){
+    case 1:
+        console.log("Morning");
+        break;
+    case 2:
+        console.log("Afternoon");
+        break;
+    case 3:
+        console.log("Night");
+        break;
+    default:
+        console.log("Error Number");
+        break;
+}
+console.log("Have a nice day");
